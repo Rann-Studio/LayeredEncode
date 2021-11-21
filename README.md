@@ -1,11 +1,8 @@
 ### Layered Encode
-
-**Usage :**
-
-    from LayeredEncode import Encode
-    Encode(fileName, layer)
     
-**Example**
+**Example Usage**
 
     from LayeredEncode import Encode
-    Encode("myFile.py", 5)
+    
+    fileName = "main.py"
+    Encode(fileName, 5)
